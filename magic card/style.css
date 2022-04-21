@@ -48,6 +48,16 @@ body::after
 
 }
 
+.card img{
+
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
 .container .card
 {
     position: relative;
@@ -108,18 +118,41 @@ body::after
 
 }
 
-.container .card .content a
+.container .card .content ul li a
 {
-    position: relative;
+     position: relative;
     display: inline-block;
-    padding: 8px 20px;
+    padding: 20px 20px;
     margin-top: 15px;
     background: #fff;
     color: #000;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
-    box-shadow: 0 5px 15px rgba(0, 0, 0,0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,0.2); 
     
 
 }
+
+ ul{
+    margin: 0;
+    padding: 0;
+}
+  .card li{
+
+    display: inline-block;
+    margin: 6px;
+    list-style: none; 
+} 
+
+ .card li a{
+
+    color: black;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+ .card li a:hover{
+
+    color: black;
+}  
