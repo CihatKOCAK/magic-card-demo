@@ -42,6 +42,7 @@ body::after {
 }
 
 .card img {
+  /* resimde kullanılan eksiklikler giderildi */
   height: 250px;
   width: 100%;
   object-fit: cover;
@@ -122,7 +123,6 @@ ul {
   margin: 6px;
   list-style: none;
 }
-
 
 .card li a:hover {
   color: black;
